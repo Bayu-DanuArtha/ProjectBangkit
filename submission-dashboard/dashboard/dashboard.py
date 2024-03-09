@@ -214,8 +214,8 @@ ax[1].tick_params(axis='y', labelsize=35)
 ax[1].tick_params(axis='x', labelsize=30)
 
 st.pyplot(fig)
-st.title('Belajar Analisis Data')
-tab1, tab2, tab3 = st.tabs(["Tab 1", "Tab 2", "Tab 3"])
+st.title('Statistics of The Number of Order 3 States Sith The Largest Order')
+tab1, tab2, tab3 = st.tabs(["Top 1", "Top 2", "Top 3"])
  
 with tab1:
     plt.figure(figsize=(10, 6))
